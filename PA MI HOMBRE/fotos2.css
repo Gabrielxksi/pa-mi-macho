@@ -1,0 +1,42 @@
+/* Estilos para el segundo carrusel */
+.gallery2 {
+    max-width: 800px;
+    margin: auto;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.column2 {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+}
+
+.column2 p {
+    margin-bottom: 10px;
+}
+
+.column2 img {
+    width: 45%;
+    height: auto;
+    margin-right: 5%;
+    margin-bottom: 10px;
+}
+
+.column2 img:last-child {
+    margin-right: 0;
+}
+
+img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 20px solid #ffcccc;
+}

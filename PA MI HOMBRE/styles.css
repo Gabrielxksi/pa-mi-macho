@@ -1,0 +1,131 @@
+body {
+    
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #ffcccc;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.justify-paragraph {
+    text-align: justify;
+}
+
+img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    max-width: 400px; /* Establece un ancho máximo para la imagen */
+    height: auto; /* Ajusta automáticamente la altura para mantener la proporción de aspecto */
+    display: block; /* Asegura que la imagen se muestre como un bloque, ocupando todo el ancho disponible */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    border-radius: 10px; /* Agrega bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+    border: 20px solid #ffcccc; /* Agrega un borde rosa con un grosor de 5px */
+}
+
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.introduction, .message {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.introduction h2, .message h2 {
+    color: #ff6666;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffcccc;
+    padding: 10px 0;
+}
+
+/* Estilos para el botón del menú */
+.dropdown {
+    font-family: 'Typewcond Bold', Arial, sans-serif;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.dropbtn {
+    font-family: 'Typewcond Bold', Arial, sans-serif;
+    background-color: #ff6666;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.dropbtn:hover {
+    background-color: #ff4d4d;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    right: 0; /* Alinea el contenido del menú hacia la izquierda */
+}
+
+
+        /* Estilos para la fuente Whocats */
+        @font-face {
+            font-family: 'AGENTORANGE';
+            src: url('AGENTORANGE.TTF') format('truetype');
+        }
+
+        /* Estilos para el título en el encabezado */
+        header h1 {
+            font-family: 'AGENTORANGE', Arial, sans-serif;
+        }
+
+
+        @font-face {
+            font-family: 'Typewcond Bold';
+            src: url('typewcond_bold.ttf') format('truetype');
+        }
+        
+        .introduction, .message {
+            font-family: 'Typewcond Bold', Arial, sans-serif;
+        }
+        
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 6px 0;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
